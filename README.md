@@ -17,7 +17,7 @@
 
 | Home Page | Course Page | Dashboard |
 |-----------|-------------|-----------|
-| ![Home](path/to/home-screenshot.png) | ![Course](path/to/course-screenshot.png) | ![Dashboard](path/to/dashboard-screenshot.png) |
+| ![Home](https://github.com/sourav842741/Vidyapath-Coureses/blob/f5fd3e2d25b3593a10d0954a452e6bbe2ca478d6/Screenshot%202025-09-15%20204257.png) | ![Course](path/to/course-screenshot.png) | ![Dashboard](path/to/dashboard-screenshot.png) |
 
 ---
 
