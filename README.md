@@ -17,7 +17,7 @@
 
 | Home Page | Course Page | Dashboard |
 |-----------|-------------|-----------|
-| ![Home](https://github.com/sourav842741/Vidyapath-Coureses/blob/f5fd3e2d25b3593a10d0954a452e6bbe2ca478d6/Screenshot%202025-09-15%20204257.png) | ![Course](path/to/course-screenshot.png) | ![Dashboard](https://github.com/sourav842741/Vidyapath-Coureses/blob/fe31e03a781fe227bc2c86f3c160f57c16886052/Screenshot%202025-09-15%20204905.png) |
+| ![Home](https://github.com/sourav842741/Vidyapath-Coureses/blob/f5fd3e2d25b3593a10d0954a452e6bbe2ca478d6/Screenshot%202025-09-15%20204257.png) | ![Course](https://github.com/sourav842741/Vidyapath-Coureses/blob/d4be650b367eb20a84e175b1e1bc18e927fc6ea9/Screenshot%202025-09-15%20204554.png) | ![Dashboard](https://github.com/sourav842741/Vidyapath-Coureses/blob/fe31e03a781fe227bc2c86f3c160f57c16886052/Screenshot%202025-09-15%20204905.png) |
 
 ---
 
