@@ -112,7 +112,7 @@ This project is licensed under the MIT License.
 ### Clone & Setup
 ```
 # Clone repo
-git clone https://github.com/forplacement90/IBM_Project.git
+git clone https://github.com/sourav842741/Vidyapath-Coureses.git
 cd vidyapath-courses
 
 # Install dependencies for backend
