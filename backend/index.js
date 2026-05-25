@@ -1,5 +1,6 @@
 import express from "express"
 import dotenv from "dotenv"
+import mongoose from "mongoose"
 import connectDb from "./configs/db.js"
 import authRouter from "./routes/authRoute.js"
 import cookieParser from "cookie-parser"
@@ -19,6 +20,34 @@ app.use(cors({
     origin:"http://localhost:5173",
     credentials:true
 }))
+
+// health check
+app.get("/api/health", async (req, res) => {
+  try {
+
+    if (mongoose.connection.readyState !== 1) {
+      throw new Error("MongoDB not connected");
+    }
+
+    await mongoose.connection.db.admin().ping();
+
+    res.status(200).json({
+      status: "ok",
+      db: "connected",
+      timestamp: new Date().toISOString(),
+    });
+
+  } catch (error) {
+
+    res.status(500).json({
+      status: "error",
+      db: "disconnected",
+      error: error.message,
+    });
+
+  }
+});
+
 app.use("/api/auth", authRouter)
 app.use("/api/user", userRouter)
 app.use("/api/course", courseRouter)
